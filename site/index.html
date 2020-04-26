@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shadi Naif</title>
+    <link rel="icon" type="image/png" href="http://love.shadinaif.com/heart.png">
+</head>
+
+<body onload="get_time_elapsed()">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="timecalc.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+
+    <div class="center-all" style="display: flex">
+        <div class="the-box center-all">
+            <div class="row-div center-all">
+                <label class="header-text">Time Since Freedom</label>
+            </div>
+            <div class="row-div center-all">
+                <label class="duration" id="days-elapsed"></label>
+                <label class="duration colon">:</label>
+                <label class="duration" id="hours-elapsed"></label>
+                <label class="duration colon">:</label>
+                <label class="duration" id="minutes-elapsed"></label>
+                <label class="duration colon">:</label>
+                <label class="duration" id="seconds-elapsed"></label>
+            </div>
+            <div class="row-div center-all">
+                <label class="duration-text" id="days-text">Days</label>
+                <label class="duration-text colon"></label>
+                <label class="duration-text" id="hours-text">Hours</label>
+                <label class="duration-text colon"></label>
+                <label class="duration-text" id="minutes-text">Minutes</label>
+                <label class="duration-text colon"></label>
+                <label class="duration-text" id="seconds-text">Seconds</label>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

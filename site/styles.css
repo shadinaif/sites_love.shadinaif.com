@@ -1,0 +1,40 @@
+.the-box {
+    border-width: 4px;
+    border-color: red;
+    border-style: solid;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+}
+
+.duration, .duration-text, .header-text {
+    font-size: 36px;
+    font-weight: bold;
+    width: 90px;
+    text-align: center;
+}
+
+.colon {
+    width: 30px;
+}
+
+.center-all {
+    align-items: center;
+    justify-content: center;
+}
+
+.row-div {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+}
+
+.duration-text {
+    font-size: 16px;
+}
+
+.header-text {
+    width: 100%;
+}
