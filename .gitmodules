@@ -1,5 +1,0 @@
-[submodule "sites_test3d.shadinaif.com"]
-	path = sites_test3d.shadinaif.com
-	url = git@github.com:shadinaif/sites_test3d.shadinaif.com
-	branch = main
-
